@@ -39,9 +39,9 @@
   color: white;
   display: flex;
   padding: 20px 24px;
-  flex-direction: ???;
+  flex-direction: column;
   gap: 4px;
-  justify-content: ???;
+  justify-content:space-around;
 }
 
 .header-title {
@@ -63,8 +63,8 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
-  flex-direction: ???;
-  justify-content: ???;
+  flex-direction: row;
+  justify-content: space-around;
   padding: 10px 24px;
   gap: 20px;
 }
@@ -87,7 +87,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: ???;
+  flex-direction: row;
 }
 
 .hero-title {
@@ -114,6 +114,8 @@
   gap: 16px;
   padding: 20px;
   background-color: #f1efe8;
+  display: flex;
+  flex: 1;
 }
 
 
@@ -130,7 +132,7 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: ???;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -178,8 +180,9 @@
 
 .images {
   display: flex;
-  flex-direction: ???;
+  flex-direction: column;
   gap: 12px;
+  flex: 1;
 }
 
 
@@ -195,7 +198,7 @@
   font-size: 13px;
   color: #5F5E5A;
   text-align: center;
-  flex: ???;
+  flex: 1;
 }
 
 
@@ -208,7 +211,7 @@
   background-color: #1a1a2e;
   padding: 12px 24px;
   display: flex;
-  justify-content: ???;
+  justify-content: flex-start;
   gap: 20px;
 }
 
